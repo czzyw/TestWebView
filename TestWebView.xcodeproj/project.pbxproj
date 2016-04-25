@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457205191C070303008EBFC1 /* WebViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 457205181C070303008EBFC1 /* WebViewC.m */; };
 		45AFAF331BA65FFA00929091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AFAF321BA65FFA00929091 /* main.m */; };
 		45AFAF361BA65FFA00929091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AFAF351BA65FFA00929091 /* AppDelegate.m */; };
 		45AFAF391BA65FFA00929091 /* TestWebView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45AFAF371BA65FFA00929091 /* TestWebView.xcdatamodeld */; };
@@ -15,6 +16,11 @@
 		45AFAF411BA65FFA00929091 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AFAF401BA65FFA00929091 /* Images.xcassets */; };
 		45AFAF441BA65FFA00929091 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45AFAF421BA65FFA00929091 /* LaunchScreen.xib */; };
 		45AFAF501BA65FFA00929091 /* TestWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AFAF4F1BA65FFA00929091 /* TestWebViewTests.m */; };
+		45AFAF5A1BA66C1600929091 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 45AFAF591BA66C1600929091 /* index.html */; };
+		45AFAF5C1BA66CEA00929091 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 45AFAF5B1BA66CEA00929091 /* index.js */; };
+		45AFAF5E1BA66E7E00929091 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AFAF5D1BA66E7E00929091 /* JavaScriptCore.framework */; };
+		45EFE3971C755ACC00EB6F5A /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EFE3961C755ACC00EB6F5A /* JSViewController.m */; };
+		45F861311BA7B73400D24375 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F861301BA7B73400D24375 /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		457205171C070303008EBFC1 /* WebViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewC.h; sourceTree = "<group>"; };
+		457205181C070303008EBFC1 /* WebViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewC.m; sourceTree = "<group>"; };
 		45AFAF2D1BA65FFA00929091 /* TestWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AFAF311BA65FFA00929091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45AFAF321BA65FFA00929091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +50,13 @@
 		45AFAF491BA65FFA00929091 /* TestWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AFAF4E1BA65FFA00929091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45AFAF4F1BA65FFA00929091 /* TestWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWebViewTests.m; sourceTree = "<group>"; };
+		45AFAF591BA66C1600929091 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		45AFAF5B1BA66CEA00929091 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		45AFAF5D1BA66E7E00929091 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		45EFE3951C755ACC00EB6F5A /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		45EFE3961C755ACC00EB6F5A /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		45F8612F1BA7B73400D24375 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		45F861301BA7B73400D24375 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45AFAF5E1BA66E7E00929091 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 		45AFAF241BA65FF900929091 = {
 			isa = PBXGroup;
 			children = (
+				45AFAF5D1BA66E7E00929091 /* JavaScriptCore.framework */,
 				45AFAF2F1BA65FFA00929091 /* TestWebView */,
 				45AFAF4C1BA65FFA00929091 /* TestWebViewTests */,
 				45AFAF2E1BA65FFA00929091 /* Products */,
@@ -85,8 +102,16 @@
 			children = (
 				45AFAF341BA65FFA00929091 /* AppDelegate.h */,
 				45AFAF351BA65FFA00929091 /* AppDelegate.m */,
+				45AFAF591BA66C1600929091 /* index.html */,
+				45AFAF5B1BA66CEA00929091 /* index.js */,
+				45F8612F1BA7B73400D24375 /* ScanViewController.h */,
+				45F861301BA7B73400D24375 /* ScanViewController.m */,
 				45AFAF3A1BA65FFA00929091 /* ViewController.h */,
 				45AFAF3B1BA65FFA00929091 /* ViewController.m */,
+				45EFE3951C755ACC00EB6F5A /* JSViewController.h */,
+				45EFE3961C755ACC00EB6F5A /* JSViewController.m */,
+				457205171C070303008EBFC1 /* WebViewC.h */,
+				457205181C070303008EBFC1 /* WebViewC.m */,
 				45AFAF3D1BA65FFA00929091 /* Main.storyboard */,
 				45AFAF401BA65FFA00929091 /* Images.xcassets */,
 				45AFAF421BA65FFA00929091 /* LaunchScreen.xib */,
@@ -202,7 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45AFAF5C1BA66CEA00929091 /* index.js in Resources */,
 				45AFAF3F1BA65FFA00929091 /* Main.storyboard in Resources */,
+				45AFAF5A1BA66C1600929091 /* index.html in Resources */,
 				45AFAF441BA65FFA00929091 /* LaunchScreen.xib in Resources */,
 				45AFAF411BA65FFA00929091 /* Images.xcassets in Resources */,
 			);
@@ -223,6 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45AFAF361BA65FFA00929091 /* AppDelegate.m in Sources */,
+				457205191C070303008EBFC1 /* WebViewC.m in Sources */,
+				45F861311BA7B73400D24375 /* ScanViewController.m in Sources */,
+				45EFE3971C755ACC00EB6F5A /* JSViewController.m in Sources */,
 				45AFAF331BA65FFA00929091 /* main.m in Sources */,
 				45AFAF3C1BA65FFA00929091 /* ViewController.m in Sources */,
 				45AFAF391BA65FFA00929091 /* TestWebView.xcdatamodeld in Sources */,
@@ -352,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +452,7 @@
 				45AFAF551BA65FFA00929091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45AFAF561BA65FFA00929091 /* Build configuration list for PBXNativeTarget "TestWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +461,7 @@
 				45AFAF581BA65FFA00929091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

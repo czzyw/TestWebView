@@ -1,0 +1,92 @@
+<!--//  Created by wangdan on 15-3-19.-->
+<!--//  Copyright (c) 2014年 wangdan. All rights reserved.-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="utf-8">
+            
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                
+                <meta name="description" content="">
+                    
+                    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+                        <script type="text/javascript">
+                            function buttonClick()
+                            {
+                                //alert("I am an alert box!!")
+                                //jakilllog("hello world");
+                                var str = getUserMessage();
+
+                                alert(str);
+                                //document.write("11");
+                            }
+                        
+                            function buttonClick1()
+                            {
+                                //alert("I am an alert box!!")
+                                //jakilllog("hello world");
+                                var str = showBuySuccessList();
+                                
+                                //document.write("11");
+                            }
+
+
+                            function buttonClick2()
+                            {
+                                //alert("I am an alert box!!")
+                                //jakilllog("hello world");
+                                var str = goodsDetail("id=370;yun=146");
+                                
+                                //document.write("11");
+                            }
+
+                            function buttonClick3()
+                            {
+                                //alert("I am an alert box!!")
+                                //jakilllog("hello world");
+                                var str = showRedBagList();
+                                
+                                //document.write("11");
+                            }
+
+
+                            function buttonClick4(nstatus,ntype)
+                            {
+                                //alert("I am an alert box!!")
+                                //jakilllog("hello world");
+                                var str = directUi("1","2");
+                                
+                                //document.write("11");
+                            }
+
+                            function myFunction(name,job)
+                            {
+                                alert("Welcome " + name + ", the " + job);
+                                return "hello";
+                            }
+
+                   
+                            </script>
+                        
+                        
+                        </head>
+    
+    <button id="hallo" onclick="buttonClick()"> 获取用户信息</button></br>
+    
+    <button id="hallo" onclick="buttonClick1()"> 查看购买记录</button></br>
+
+    <button id="hallo" onclick="buttonClick2()"> 跳转商品详情页</button></br>
+
+    <button id="hallo" onclick="buttonClick3()"> 跳转红包页面</button>
+    
+    <button id="hallo" onclick="buttonClick4()"> 跳转红包页面</button>
+
+
+    </body>
+    
+</html>
